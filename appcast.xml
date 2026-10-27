@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PopStack</title>
+    <item>
+      <title>1.3.1</title>
+      <pubDate>Tue, 27 Oct 2026 20:39:01 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.7</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/chasegiunta/popstack-updates/releases/tag/1.3.1</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<pre style="white-space: pre-wrap; font: -apple-system-body">### New
+- **New update system**: &quot;Check for Updates…&quot; now opens a standard update window that shows what&#x27;s new, downloads the update, and relaunches PopStack for you.
+- **Update settings**: Preferences → About has a new Updates section. Turn automatic update checks on or off, check now, and see when PopStack last checked.
+
+### Improvements
+- Every update is now signed by PopStack, and your Mac checks that signature before installing it, so you only get genuine PopStack updates.
+
+### Notes
+- This update installs the usual way. Future updates will use the new update window.</pre>]]></description>
+      <enclosure url="https://github.com/chasegiunta/popstack-updates/releases/download/1.3.1/PopStack-1.3.1.zip" type="application/octet-stream" sparkle:edSignature="5aIdoGagryEay3qz7kqmQkS8Li0OosWixSAjw3MprX44mhx8lLpqcUQkt9WUAfyjx8GWVEt0R52edRLZFTJHAQ==" length="10711704" />
+    </item>
+  </channel>
+</rss>
