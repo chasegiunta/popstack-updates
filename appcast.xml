@@ -3,6 +3,78 @@
   <channel>
     <title>PopStack</title>
     <item>
+      <title>2.0.0</title>
+      <pubDate>Thu, 19 Nov 2026 04:07:10 GMT</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.7</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/chasegiunta/popstack-updates/releases/tag/2.0.0</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; margin: 0; padding: 2px 6px 10px; -webkit-font-smoothing: antialiased; }
+p { margin: 0 0 0.7em; }
+h1, h2, h3 { line-height: 1.25; margin: 1.1em 0 0.35em; }
+h1 { font-size: 1.3em; }
+h2 { font-size: 1.12em; }
+h3 { font-size: 1em; }
+h1:first-child, h2:first-child, h3:first-child, p:first-child { margin-top: 0; }
+ul { margin: 0.2em 0 0.7em; padding-left: 1.25em; }
+li { margin: 0.3em 0; }
+li > ul { margin: 0.2em 0; }
+code { font: 0.92em ui-monospace, SF Mono, Menlo, monospace; }
+a { color: LinkText; color: -apple-system-control-accent; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+<p>PopStack 2.0 is the biggest update yet, and it's free for everyone with a PopStack license.</p>
+<h2>Popovers</h2>
+<ul><li>
+<strong>Browse subfolders in place.</strong> Click a folder inside a popover to open it right there, with a back button. Esc steps back a level. (Command-click still opens a folder in Finder.)
+</li><li>
+<strong>Keyboard control.</strong> Arrow keys move a selection through the grid or list, Return opens it, ⌘↑ goes back up, and typing a name jumps to it, just like Finder.
+</li><li>
+<strong>Quick Look.</strong> Press Space to preview the selected item, then arrow through the folder at full size. Space or Esc puts it away.
+</li><li>
+<strong>Right-click menu.</strong> Open, Open With, Quick Look, Show in Finder, Copy (hold Option for Copy as Pathname) and Move to Trash. ⌘C, ⌥⌘C and ⌘⌫ work on the selected item too.
+</li><li>
+<strong>Popovers in Finder windows.</strong> Option-click a folder in any Finder window to peek inside without leaving it. Turn it on in Preferences → Popovers.
+</li><li>
+<strong>Choose your click.</strong> Open popovers with a plain click, Option-, Command-, Control- or Shift-click, or any combination (Preferences → Popovers).
+</li><li>
+<strong>Open in Terminal.</strong> Optional buttons open the folder you're viewing in Terminal or your own terminal app (iTerm, Ghostty, Warp…), in the popover's header, its grid, or both.
+</li><li>
+<strong>Your default view.</strong> Pick the view (grid or list) and sort order new folders open with. Folders you've changed keep their own settings.
+</li></ul>
+<h2>Auto-Sort</h2>
+<ul><li>
+<strong>Sort on your schedule.</strong> Sort new files immediately, after a delay (say, an hour while you work with them), or in a sweep every few hours or once a day. A sweep missed while your Mac slept runs as soon as it wakes.
+</li><li>
+<strong>Sort Now from anywhere.</strong> Record a keyboard shortcut in Preferences → Auto-Sort, or choose Sort Desktop Now in the menu bar. A message tells you what moved, or why nothing did.
+</li><li>
+<strong>Watch files fly home.</strong> Each file now glides from the Desktop into its folder, and the folder gives a little pulse. Turn it off in Preferences → Auto-Sort → "Animate Files into Folders".
+</li><li>
+<strong>A nod from the menu bar.</strong> The menu bar icon gives a little bounce when files are filed away.
+</li></ul>
+<h2>Faster and smoother</h2>
+<ul><li>
+<strong>No more beachballs on iCloud Desktops.</strong> Folders full of files iCloud had offloaded used to freeze PopStack for a few seconds while macOS downloaded them. They now open instantly, and nothing is downloaded just to show it.
+</li><li>
+<strong>Your clicks never wait.</strong> PopStack checks your clicks on its own thread now, so they pass through in under 2 ms even while a popover is opening.
+</li><li>
+<strong>120 Hz resizing.</strong> Popovers glide to their new size with a subtle, springy bounce.
+</li><li>
+<strong>Smooth folder navigation.</strong> Subfolders slide in from the side, going back slides the other way, and thumbnails fade in as they load.
+</li><li>
+<strong>Sharper icons.</strong> Folder icons in subfolders are crisp, and items respond to hover and press.
+</li><li>
+<strong>Reduce Motion.</strong> With it on, slides, bounces and press effects become gentle crossfades.
+</li></ul>
+<h2>Setup</h2>
+<ul><li>
+<strong>A new welcome.</strong> The setup window is rebuilt as a native Mac window that follows Dark Mode (with Liquid Glass on macOS Tahoe), lets you choose your click and turn on Auto-Sort as you go, and no longer restarts PopStack when you activate your license.
+</li></ul>]]></description>
+      <enclosure url="https://github.com/chasegiunta/popstack-updates/releases/download/2.0.0/PopStack-2.0.0.zip" type="application/octet-stream" sparkle:edSignature="I7APdrGX9RVjRgJvIUH9UPeikA3L6574EyaPlQGm2CK1PhUr+O0LPPMDciGsvo1WCNXlybJuns0tqKbUhUHUCg==" length="10983539" />
+    </item>
+    <item>
       <title>1.3.1</title>
       <pubDate>Tue, 27 Oct 2026 20:39:01 GMT</pubDate>
       <sparkle:version>19</sparkle:version>
